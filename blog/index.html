@@ -1,7 +1,8 @@
 ---
 layout: default
+title: "Blog - Panthera Sciences"
 ---
-<!--
+
 <div class="home">
 
   <ul class="post-list">
@@ -10,7 +11,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a>
         </h2>
         <h4><em>By {{ post.author}}</em></h4>
         <p>{{ post.excerpt }}</p>
@@ -20,5 +21,4 @@ layout: default
     {% endfor %}
   </ul>
 
-</div> -->
-<p>Test</p>
+</div>

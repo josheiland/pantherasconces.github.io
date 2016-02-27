@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site Settings
-title: Blog - Panthera Sciences
+title: Panthera Sciences
 email: teampantherasciences@gmail.com
 author: Panthera Sciences
 description: Stay updated with the latest from Panthera Sciences.
 
 # URL Stuff
 url: "http://pantherasciences.com" # the base hostname & protocol for your site
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 permalink: /:categories/:title
 subscribe_rss: https://feedburner.google.com/fb/a/mailverify?uri=pantherasciencesblog&loc=en_US
 
