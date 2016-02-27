@@ -14,7 +14,7 @@ description: Stay updated with the latest from Panthera Sciences.
 # URL Stuff
 url: "http://pantherasciences.com" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog
-permalink: /:categories/:title
+permalink: :categories/:title
 subscribe_rss: https://feedburner.google.com/fb/a/mailverify?uri=pantherasciencesblog&loc=en_US
 
 # Social Stuff
