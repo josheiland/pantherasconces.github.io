@@ -3,10 +3,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Some Meta Tags -->
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="theme-color" content="#607D8B">
 
+  <!-- Facebook Metadata -->
+  <meta property=”og:title” content="Blog - Panthera Sciences"/>
+  <meta property=”og:type” content="blog"/>
+  <meta property=”og:image” content=”hhttp://www.pantherasciences.com/some-image.jpg”/> <!-- Make this a square Panthera Logo -->
+  <meta property=”og:url” content=”http://www.pantherasciences.com/blog”/>
+
+  <!-- Twitter Metadata -->
+  <meta name=”twitter:card” content=”summary”>
+  <meta name=”twitter:url” content="http://www.pantherasciences.com/blog{{ page.url }}">
+  <meta name=”twitter:title” content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta name=”twitter:description” content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name=”twitter:image” content=”http://www.pantherasciences.com/some-image.jpg”> <!-- Make this a square Panthera Logo -->
+
+  <!-- Stylesheets and Whatnot -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
