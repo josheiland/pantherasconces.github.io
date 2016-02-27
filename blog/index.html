@@ -15,7 +15,7 @@ title: "Blog - Panthera Sciences"
         </h2>
         <h4><em>By {{ post.author}}</em></h4>
         <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}"><em>Continue Reading</em> <span class="fa fa-arrow-right"></span></a>
+        <a href="{{ post.url | prepend: site.url }}"><em>Continue Reading</em> <span class="fa fa-arrow-right"></span></a>
 
       </li>
     {% endfor %}
