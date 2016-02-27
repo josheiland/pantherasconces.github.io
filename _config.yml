@@ -8,11 +8,40 @@
 # Site settings
 title: Blog - Panthera Sciences
 email: teampantherasciences@gmail.com
-description: A student organization aiming to combine engineering, technology, and design.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+author: Panthera Sciences
+description: Stay updated with the latest from Panthera Sciences.
+
+# URL Stuff
 url: "http://pantherasciences.com" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+permalink: /:categories/:title
+subscribe_rss: https://feedburner.google.com/fb/a/mailverify?uri=pantherasciencesblog&loc=en_US
+
+# Social Stuff
+flickr_username: pantherasciences
 twitter_username: pantherasci
 github_username:  pantherasciences
 
 # Build settings
 markdown: kramdown
+
+###########################
+# Octopress Configuration #
+###########################
+
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
