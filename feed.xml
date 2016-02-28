@@ -5,15 +5,17 @@
     <description>Stay updated with the latest from Panthera Sciences.</description>
     <link>http://pantherasciences.com//</link>
     <atom:link href="http://pantherasciences.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Feb 2016 00:43:14 -0500</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2016 00:43:14 -0500</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2016 14:22:24 -0500</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2016 14:22:24 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Community Outreach and Workshops</title>
         <description>&lt;p&gt;This semester we started a project in a completely different direction than what we’ve taken before. Over the course of the past few years, the Makers Club and Robotics team at Lovett have been extremely successful in garnering interest in STEM. We have members who are athletes, actors, musicians, etc. who’ve found some sort of interest in engineering even if they only have time to contribute a little each week. At the same time, we have more and more people drop by just to see what’s going on. We get to hear what a lot of people think about us, and lately we’ve been hearing some patterns.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;– Image of Maxwell –&amp;gt;&lt;/p&gt;
+&lt;div align=&quot;middle&quot;&gt;
+  &lt;iframe src=&quot;https://www.flickr.com/photos/pantherasciences/25326044706/in/datetaken-public/player/&quot; width=&quot;700&quot; height=&quot;489&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We’re frequently told that students love what we’re doing, and want to help out wherever they can, but have no idea how to get started. There’s an anticipated learning curve when joining a STEM club that creates a barrier for new members. To solve this, two other students and I wrote a lesson plan teaching basic programming and electronics. The gist of the lesson is a series of Arduino mini-projects exploring the fundamentals of electricity and programming. We’ve held three workshops to date, and in the coming weeks we plan on integrating a workshop request form into &lt;a href=&quot;http://lovettmakers.club&quot;&gt;the site&lt;/a&gt; where students or teachers can send us times that work for them.&lt;/p&gt;
 
@@ -58,7 +60,9 @@
 
 &lt;p&gt;We’re starting the Makers Club year off focusing on three projects: a quadcopter, tesla coil, and of course, the Team America Rocketry Challenge (TARC). The biggest restriction placed on project completion is the FIRST Robotics build season starting in early January. Because of the large overlap between members of the Makers Club and Robotics Team, we expect some slowdown on the progress of Makers Projects early next year.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;– Image of TARC logo –&amp;gt;&lt;/p&gt;
+&lt;div align=&quot;middle&quot;&gt;
+  &lt;iframe src=&quot;https://www.aapt.org/Programs/contests/images/tarc_logo_med.jpg&quot; width=&quot;250&quot; height=&quot;246&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Our primary focus as 2015 comes to a close is TARC. The secret to a successful TARC rocket is rapid prototyping and frequent testing. Fail fast, and fail often. We hope to design and build throughout the winter, test during FRC build season, and fine tune as necessary up until our qualification flights in March. Details on our design process to come in a later blog post.&lt;/p&gt;
 
@@ -199,7 +203,9 @@
         <title>HAB-4: A Stepping Stone to LunarHAB</title>
         <description>&lt;p&gt;After HAB-1, which followed on the heels of a lunar eclipse in October, Josh proposed that we should launch a balloon during one of these extraordinary events. It turns out that the next lunar eclipse will be occurring on September 28th of this year. As a way to prepare for this huge project (HAB-5), we’re dedicating our next balloon, HAB-4, to testing out a payload similar to that of which we will fly during the eclipse. In many ways, HAB-4 will be the most important balloon we will launch in 2015. The summer provides incredible opportunity to develop our skills in electronics and photography, and also plenty of time to build and fine-tune a payload. Currently, we have more improvements planned for HAB-4 than any other balloon before it.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;– Lunar eclipse diagram –&amp;gt;&lt;/p&gt;
+&lt;div align=&quot;middle&quot;&gt;
+  &lt;iframe src=&quot;http://www.salagram.net/lunar-eclipse.gif&quot; width=&quot;700&quot; height=&quot;379&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The eclipse is projected to begin at around 9pm and last slightly under 3.5 hours, with the full eclipse occurring for a little over an hour in the middle (with maximum eclipse at 10:47pm). We hope to launch before the full eclipse begins, at around 9:30, and capture as much as possible with a photography-based payload. For more information on this eclipse visit &lt;a href=&quot;http://www.timeanddate.com/eclipse/lunar/2015-september-28&quot;&gt;this site&lt;/a&gt;.&lt;/p&gt;
 
@@ -242,7 +248,9 @@
 - Javi Martin, &lt;a href=&quot;https://github.com/trackuino/trackuino&quot;&gt;Trackuino on GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&amp;lt;– Image of Trackuino –&amp;gt;&lt;/p&gt;
+&lt;div align=&quot;middle&quot;&gt;
+  &lt;iframe src=&quot;https://www.flickr.com/photos/pantherasciences/24725492403/in/datetaken-public/player/&quot; width=&quot;700&quot; height=&quot;525&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;What is great about this shield is that it will allow us to transmit data from sensors and breakout boards that we already have. The Arduino platform is something we are familiar with, and it will likely open up several doors relating to data collection and in-flight communication with the balloon. Additionally, building a shield for Arduino, or even a PCB in general, is something we have never done before. This is a great opportunity to familiarize ourselves with Eagle for PCB design, and these skills are easily applicable to other projects.&lt;/p&gt;
 
@@ -290,7 +298,9 @@
         <title>HAB-3: Technical Overview</title>
         <description>&lt;p&gt;HAB-3 represents every test, improvement, and lesson learned throughout the year in the Lovett Makers Club. In the Fall, we launched our first high altitude balloon with a very simple payload to challenge the idea that we can send something to the stratosphere and then retrieve it. Not only have we successfully recovered every payload to date, but each HAB has pushed the limits of what we thought we were capable of achieving. The following is a look into the process and design behind the HAB-3 payload, and most importantly, what we learned from it.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;– Image of payload design –&amp;gt;&lt;/p&gt;
+&lt;div align=&quot;middle&quot;&gt;
+  &lt;iframe src=&quot;https://www.flickr.com/photos/pantherasciences/17925999086/in/datetaken-public/player/&quot; width=&quot;700&quot; height=&quot;540&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;structure&quot;&gt;Structure&lt;/h3&gt;
 
