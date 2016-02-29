@@ -1,14 +1,60 @@
 <!DOCTYPE HTML>
 <html>
 
-	{% include head.html %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Some Meta Tags -->
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="theme-color" content="#1976D2">
+
+  <!-- Facebook Meta -->
+  <meta property=”og:title” content="Blog - Panthera Sciences"/>
+  <meta property=”og:type” content="blog"/>
+  <meta property=”og:image” content=”hhttp://www.pantherasciences.com/some-image.jpg”/> <!-- Make this a square Panthera Logo -->
+  <meta property=”og:url” content=”http://www.pantherasciences.com/blog”/>
+
+  <!-- Twitter Meta -->
+  <meta name=”twitter:card” content=”summary”>
+  <meta name=”twitter:url” content="http://www.pantherasciences.com/blog{{ page.url }}">
+  <meta name=”twitter:title” content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta name=”twitter:description” content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name=”twitter:image” content=”http://www.pantherasciences.com/some-image.jpg”> <!-- Make this a square Panthera Logo -->
+
+  <!-- Stylesheets and Whatnot -->
+  <link rel="stylesheet" href="http://pantherasciences.com/assets/css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
 
 	<body>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-        {% include header.html %}
+        <header id="header">
+          <h1><a href="http://pantherasciences.com">Panthera Sciences</a></h1>
+          <nav id="nav">
+            <ul>
+              <li class="special">
+                <a href="#menu" class="menuToggle"></a>
+                <div id="menu">
+                  <ul>
+                    <li><a href="http://pantherasciences.com">Home</a></li>
+                    <li><a href="http://pantherasciences.com/blog">Blog</a></li>
+                    <li><a href="http://pantherasciences.com/projects">Projects</a></li>
+                    <li><a href="https://feedburner.google.com/fb/a/mailverify?uri=pantherasciencesblog&loc=en_US">Subscribe</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
 				<!-- Main -->
 					<article id="main">
@@ -46,7 +92,26 @@
 						</section>
 					</article>
 
-          {% include footer.html %}
+          <!-- Footer -->
+            <footer id="footer">
+              <ul class="icons">
+                <li><a href="mailto:team@pantherasciences.com" class="icon fa fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="https://flickr.com/pantherasciences/" class="icon fa fa-flickr"><span class="label">Flickr</span></a></li>
+                <li><a href="https://twitter.com/pantherasci" class="icon fa fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://github.com/pantherasciences" class="icon fa fa-github"><span class="label">GitHub</span></a></li>
+              </ul>
+              <ul class="copyright">
+                <li>&copy; Panthera Sciences 2013-2016</li>
+              </ul>
+            </footer>
+
+            <!-- Scripts -->
+            <script src="http://pantherasciences.com/assets/js/jquery.min.js"></script>
+            <script src="http://pantherasciences.com/assets/js/jquery.scrollex.min.js"></script>
+            <script src="http://pantherasciences.com/assets/js/jquery.scrolly.min.js"></script>
+            <script src="http://pantherasciences.com/assets/js/skel.min.js"></script>
+            <script src="http://pantherasciences.com/assets/js/util.js"></script>
+            <script src="http://pantherasciences.com/assets/js/main.js"></script>
 
 	</body>
 </html>
