@@ -2131,7 +2131,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #eb341c !important;
+				background-color: #2196F3 !important; /* Formerly #eb341c */
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
