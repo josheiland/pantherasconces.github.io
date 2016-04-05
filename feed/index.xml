@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <atom:link href="http://pantherasciences.com/feed" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pantherasciences.com/feed/index.xml" rel="self" type="application/rss+xml" />
     <title>Panthera Sciences - Blog Posts</title>
     <description>The Panthera Sciences website - complete with a full project index and a blog so you can stay up to date.</description>
     <link>http://pantherasciences.com</link>
